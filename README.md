@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# JML NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is a simple nft project created using openzeppelin and hardhat and solidity programming language, used few plugins like hardhat-deploy and ethers.
 
-Try running some of the following tasks:
+## how to run this project
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+- first type the command `npm install`
+- create a .env file and supply the following:
+  - private key
+  - rpc node connected to ethereum (like alchemy / infura / Moralis)
