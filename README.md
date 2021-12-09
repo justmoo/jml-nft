@@ -7,4 +7,8 @@ This project is a simple nft project created using openzeppelin and hardhat and 
 - first type the command `npm install`
 - create a .env file and supply the following:
   - private key
-  - rpc node connected to ethereum (like alchemy / infura / Moralis)
+  - node to connect to ethereum (alchemy / infura / Moralis)
+- you can also install the hh shortcut
+- use the command `hh deploy` or `hh deploy --network rineky`
+
+enjoy the jml nft :)
